@@ -2,7 +2,7 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $con = new mysqli("localhost","u574292999_root","1vZuS^=9w=P","u574292999_register");
+    $con = new mysqli("localhost","root","","register");
     if($con->connect_error){
         die("Failed to connect : ".$con->connect_error);
     }else{
