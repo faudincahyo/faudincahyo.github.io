@@ -1,0 +1,55 @@
+body{
+    background: aliceblue;
+}
+.codeBox{
+    background: aquamarine;
+    display: block;
+    text-align: center;
+    border: black solid 1px;
+    width: 450px;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+
+.codeBox .code{
+    font-size: large;
+    font-weight: bold;
+
+}
+.descPay{
+    display: block;
+    text-align: center;
+    border: black solid 1px;
+    width: 450px;
+    margin: auto;
+}
+
+
+table{
+    width: 350px;
+}
+
+td{
+    width: 1rem;
+}
+
+.partLine{
+    background: gray;
+}
+.keterangan{
+    display: block;
+    text-align: center;
+    border: black solid 1px;
+    width: 450px;
+    margin: auto;
+    padding-top: 0.5rem;
+}
+
+.desc{
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 5px;
+}
+
+

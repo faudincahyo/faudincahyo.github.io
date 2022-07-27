@@ -1,0 +1,142 @@
+.card{
+    height: 500px;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 0 rgba(252, 56, 56,.9);
+}
+
+.gambar{
+    width: 350px;
+    height: 400px;
+}
+.card .inner-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 0 2rem;
+}
+
+.content{
+    padding: 0 15px 0 30px;
+    width: 530px;
+    margin-left: 45px;
+}
+
+ul li{
+    justify-content: left;
+}
+
+.tombol{
+    padding-top: 1rem;
+}
+
+.wrapper{
+    height: 30px;
+    width: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border:rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.wrapper span.plus{
+    cursor: pointer;
+}
+
+.wrapper span.minus{
+    cursor: pointer;
+}
+.wrapper span.angka{
+    font-size: 13px;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-bawah{
+    background-color: rgb(17, 240, 166);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-bawah .footer-left,
+.footer-bawah .footer-right,
+.footer-bawah .footer-center{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.footer-bawah .footer-right{
+    width: 30%;
+}
+
+.footer-bawah .footer-left{
+    width: 30%;
+    float: left;
+}
+
+.footer-bawah .footer-center{
+    width: 35%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.content{
+    width: 400px;
+    height: 350px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.4);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header{
+    height: 68px;
+    background: green;
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+fa-shopping-cart.zero::before{
+    opacity: 1;
+}
+.counter-container{
+    border-radius: .1rem;
+    width: 3.3rem;
+    height: 3.3rem;
+    align-items: center;
+    position: relative;
+}
+.counter-container span{
+    user-select: none;
+    position: absolute;
+    background: rgb(226, 74, 74);
+    width: 0.8rem;
+    height: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: .6rem;
+    border-radius: 50%;
+    font-weight: bold;
+    top : .2rem;
+    right: 1rem;
+}

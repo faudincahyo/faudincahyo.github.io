@@ -1,0 +1,283 @@
+#product{
+    background-color: white;
+}
+
+#most .row{
+    padding-top: 2rem;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+.star:hover{
+    color: gold;
+    cursor: pointer;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+.gambar-pro{
+    width:  400px;
+    height: 520px;
+    margin-bottom: 10px;
+}
+
+.footer-bawah{
+    background-color: rgb(17, 240, 166);
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+
+.footer-bawah .footer-left,
+.footer-bawah .footer-right,
+.footer-bawah .footer-center{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-bawah .footer-right{
+    width: 30%;
+    line-height: 30px;
+
+}
+
+.footer-bawah .footer-left{
+    width: 30%;
+    float: left;
+}
+
+.footer-bawah .footer-center{
+    width: 35%;
+    align-content: center;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-left: 5rem;
+}
+
+#carouselExampleCaptions{
+    padding-top: 1rem;
+    width: 100%;
+}
+
+#carouselExampleSlidesOnly{
+    padding-top: 2rem;
+    width: 100%;
+}
+
+
+#cekbox{
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.total-harga{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-harga table{
+    border-top: 3px solid aquamarine;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(17, 240, 166);
+    
+}
+
+td:last-child{
+    text-align: right;
+
+}
+th:last-child{
+    text-align: right;
+}
+.box{
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.box .button{
+    width: 25px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 22px;
+    cursor: pointer;
+}
+.box .button:active{
+    background: #ccc;
+}
+.box input{
+    border-radius: 5px;
+    font-size: 22px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.box-checkout{
+    border: 1px solid aquamarine;
+    background:aliceblue;
+    padding: 5px 0 0 15px;
+}
+
+.box-produk{
+    border: 1px transparent aquamarine;
+    background:aliceblue;
+    padding: 5px 0 0 0;
+}
+
+.box-produk tr{
+    display: flex;
+}
+
+.info-produk{
+    margin-left: 1rem;
+}
+
+.box-pesanan{
+    border: 1px solid aquamarine;
+    background:aliceblue;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+}
+
+.tombol-checkout{
+    border-top: 1px solid aquamarine;
+    background:aliceblue;
+    float: right;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding: 5px 0 0 15px;
+}
+.info-button{
+    margin-right: 2rem;
+}
+.info-button .btn{
+    margin-bottom: 5px;
+}
+.input-saran{
+    display: flex;
+}
+.input-saran #saran{
+    margin-left: 20rem;
+    border-style:hidden;
+    float: right;
+
+    
+}
+.info-pesanan{
+    display: flex;
+}
+
+
+.metode{
+    border: 1px solid aquamarine;
+    background:aliceblue;
+    padding: 5px 0 0 15px;
+}
+.metopem{
+    justify-content: center;
+}
+
+.metopem img{
+    margin-left: 10px;
+}
+
+.metopem input{
+    margin-left: 10px;
+}
+
+.pesanan-saya{
+    border: 1px solid rgb(17, 240, 166);
+    background:aliceblue;
+    display: flex;
+}
+.tab-pesanan{
+    background: rgb(160, 224, 203);
+}
+.tab-pesanan ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.tab-pesanan li{
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 1rem 0px 0px 5px;
+    margin-bottom: 1rem;
+}
+.tab-pesanan ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.tab-pesanan ul li a:hover{
+    text-decoration: none;
+    border-bottom: red;
+}
+
+.tab-pesanan ul li a#onlink {
+    border-bottom: 1px solid red;
+    
+}
+.tab-pesanan ul li a#onlink:hover {
+    border-bottom: 1px solid red;
+}
+
+.tab-pesanan ul li a.active{
+    border-bottom:1px solid red;
+}
+
+.search-box input{
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.search-box .search-pesan{
+    place-content: center;
+}
+
+.search-box i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 5px;
+    height:5%;
+    line-height: 25px;
+    border-radius: 0 25px 25px 0;;
+}
+
+.ket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+}
+
+
+.center,.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media only screen and (max-width: 600px) {
+    .cart-info p{
+        display: none;
+    }
+}
+

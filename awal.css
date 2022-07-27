@@ -1,0 +1,136 @@
+.navbar-nav{
+    text-align: center;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.dropdown .dropdown-item:hover{
+    display: block;
+    background-color: rgb(0, 255, 0);
+}
+#carouselExampleControls{
+    padding-top: 1rem;
+}
+
+.col{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+.row{
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+.footer-bawah{
+    background-color: #6de2b5;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-bawah .footer-left,
+.footer-bawah .footer-right,
+.footer-bawah .footer-center{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-bawah .footer-right{
+    width: 30%;
+}
+
+.footer-bawah .footer-left{
+    width: 30%;
+    float: left;
+}
+
+.footer-bawah .footer-center{
+    width: 35%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+
+.edit{
+    object-fit: contain;
+    object-position: bottom;
+    height: fit-content;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+}
+
+
+body,h2,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 50%;
+    margin: 50px auto;
+}
+
+body{
+    background-color: white;
+}
+
+section h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: #000000;
+}
+
+section ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+section ul li{
+    list-style: none;
+    background-color:blanchedalmond;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+section ul li.active{
+    background-color: rgb(71, 212, 71);
+}
+
+.produk{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produk img{
+    width:  200px;
+    height: 230;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
