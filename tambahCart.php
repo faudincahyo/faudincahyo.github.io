@@ -3,7 +3,7 @@ $nama_barang = $_GET['nama_barang'];
 $harga_barang = $_GET['harga_barang'];
 $jml = $_POST['jml'];
 
-$conn = new mysqli ('localhost','u574292999_rootcart','1$xO?sz/~Ov','u574292999_shoping_cart');
+$conn = new mysqli ('localhost','root','','shoping_cart');
 if($conn->connect_error){
     die('Connection failed : '.$conn->connect_error);
 }else{
