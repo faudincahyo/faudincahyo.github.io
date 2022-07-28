@@ -13,7 +13,7 @@
         if($stmt_result->num_rows > 0){
             $data = $stmt_result->fetch_assoc();
             if( $data['password'] == $password){
-                header("Location: ../Layout_home.html");
+                header("Location: Layout_home.html");
                 exit; 
             }else{
                 echo "<script>alert('Username atau Password yang Anda Masukkan Salah'; window.location='index.html')</script>";
