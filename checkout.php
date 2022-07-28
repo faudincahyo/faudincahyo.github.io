@@ -2,9 +2,9 @@
 session_start();
   
 $servername = "localhost";
-$username = "u574292999_barang";
-$password = "Pelupa7520?";
-$dbname = "u574292999_data_barang";
+$username = "root";
+$password = "";
+$dbname = "shoping_cart";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
